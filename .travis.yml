@@ -1,10 +1,6 @@
-install:
-  - nvm install 4.0 // if you're not using Node as language
-  - npm install -g nightwatch
+language: node_js
 before_script:
-  // This is our server
-  - npm run serve:dist &
-script:
-  - nightwatch --config nightwatch.js --env chrome,ie11
-  // This one feels hacky, but does the job of killing the server
-  - pkill node
+  - python -m SimpleHTTPServer &
+  - sleep 2
+node_js:
+    - "6.0"
