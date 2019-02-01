@@ -1,3 +1,4 @@
+'use strict'
 const seleniumServer = require("selenium-server");
 const chromedriver = require("chromedriver");
 
