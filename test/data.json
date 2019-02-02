@@ -1,5 +1,5 @@
 {
-    "email": "mailinweewator1@mailinator.com",
+    "email": "",
     "firstName": "John",
     "lastName": "Doe",
     "password": "Mailing222!!",
@@ -12,5 +12,9 @@
     "country": "United States",
     "state": "Alabama",
     "mobilePhone": "555-9900",
-    "alias": "Home"
+    "alias": "Home",
+    "existingUser": {
+        "email": "mailinweewator1@mailinator.com",
+        "password": "Mailing222!!"
+    }
 }

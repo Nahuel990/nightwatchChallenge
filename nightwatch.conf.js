@@ -20,21 +20,24 @@ module.exports = {
   "test_settings": {
     "default": {
       "launch_url": "http://automationpractice.com",
-      // "screenshots": {
-      //   "enabled": true, // if you want to keep screenshots
-      //   "path": "./screen"
-      // },
+      "screenshots": {
+        "enabled": true, // if you want to keep screenshots
+        "path": "./screen",
+        "on_failure": true
+      },
       "globals": {
         "waitForConditionTimeout": 5000
       },
-      "desiredCapabilities": { 
-        "browserName": "chrome"
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "elementScrollBehavior": 1
       }
     },
     "chrome": {
       "desiredCapabilities": {
         "browserName": "chrome",
-        "javascriptEnabled": true
+        "javascriptEnabled": true,
+        "elementScrollBehavior": 1
       }
     }
   }

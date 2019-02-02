@@ -6,6 +6,9 @@ module.exports = {
     signIn: {
       selector: '.login'
     },
+    searchBox: {
+      selector: '#search_query_top'
+    },
     mailFieldToCreateAccount: {
       selector: '#email_create'
     },
