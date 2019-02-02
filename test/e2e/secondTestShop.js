@@ -33,7 +33,7 @@ module.exports = {
             .assert.cssClassPresent('@avail', 'label-success')
             .getText('@totalProduct', function (result) { totProd = result.value; console.log(result.value) })
             .getText('@totalShipping', function (result) { totShip = result.value; console.log(result.value) })
-            .getText('@totalPriceWOT', function (result) { let tot = result.value; client.verify.equal(parseFloat(tot.substring()), parseFloat(totProd.substring(1)) + parseFloat(totShip.substring(1))) })
+            .getText('@totalPriceWOT', function (result) { let tot = result.value; client.verify.equal(parseFloat(tot.substring(1)), parseFloat(totProd.substring(1)) + parseFloat(totShip.substring(1))) })
             .click('@proceedCheckout')
             .waitForElementVisible('@step2', 1000)
             .assert.containsText('@step2', '02. Sign in')
