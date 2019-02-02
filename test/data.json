@@ -1,0 +1,16 @@
+{
+    "email": "mailinweewator1@mailinator.com",
+    "firstName": "John",
+    "lastName": "Doe",
+    "password": "Mailing222!!",
+    "day": "15",
+    "month": "February",
+    "year": "1990",
+    "postalCode": "00000",
+    "street": "Fake St. 123",
+    "city": "Springfield",
+    "country": "United States",
+    "state": "Alabama",
+    "mobilePhone": "555-9900",
+    "alias": "Home"
+}
