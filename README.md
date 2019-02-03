@@ -3,7 +3,7 @@
 Assumptions:
  - You have installed Java (check you have at least the 8th version ```$ java --version```)
  - You have installed Node (check you have at least the 10th version ```$ node -v```)
- - You have installed Chrome (check you have at least the 71th version -> Open Chrome -> Click on "More options" icon -> Help -> About Google Chrome)
+ - You have installed Chrome (check you have at least the 71st version -> Open Chrome -> Click on "More options" icon -> Help -> About Google Chrome)
  -----------------------------
 ### Installation
 
