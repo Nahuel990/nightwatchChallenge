@@ -2,6 +2,7 @@ require('../../nightwatch.conf.js');
 var data = require('../data.json')
 
 module.exports = {
+    //new comment
     "Navigate to shop section": function (client) {
         const mainSite = client.page.poMainSite();
 
