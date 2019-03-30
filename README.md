@@ -29,3 +29,4 @@ npm test
 - nightwatch.conf.js: configuration file for the whole project
 - package.json: dependency manager
 - others are not relevant
+-test
